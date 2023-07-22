@@ -76,12 +76,18 @@
                 </a> 
                 <div class="social-container">
                   <ul class="social-icons">
-                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                      <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                      <li><a href=""><i class="fas fa-comment"></i></a>
+                      <li><a href="https://www.instagram.com/wisemanmpaji/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                      <li><a href="https://www.facebook.com/wiseman.mpaji" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/wiseman-mpaji-655b49195" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                      <li><a id="message-icon" target="_blank"><i class="fas fa-comment"></i></a>
                       <script>
-                      
+                        const messageIcon = document.getElementById('message-icon');
+                        messageIcon.addEventListener('click', function() {
+                          const phoneNumber = '0621500695';
+                          const message = 'Hey! Wiseman';
+                          const url = `sms:${phoneNumber}&body=${encodeURIComponent(message)}`;
+                          window.open(url);
+                        });
                       </script>
                       </li>
                   </ul>

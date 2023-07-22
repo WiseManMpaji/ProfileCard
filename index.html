@@ -1,61 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WiseManMpaji Profile</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <meta name="description" content="This website made by mpaji elia for showcasing his profile"/>
-	<meta name="keywords" content="wiseman,wise,wiseman_mpaji,wisemanmpajirealtopg,©WiseManMpaji,mpaji,mpaji elia lulandala"/>
-    <script src="script.js"></script>
-</head>
-<body>
-    <div class="container">
-        <div class="menu">
+  <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WiseManMpaji Profile</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <meta name="description" content="This website made by mpaji elia for showcasing his profile"/>
+        <meta name="keywords" content="wiseman,wise,wiseman_mpaji,wisemanmpajirealtopg,©WiseManMpaji,mpaji,mpaji elia lulandala"/>
+        <script src="script.js"></script>
+      </head>
+      <body>
+        <div class="container">
+          <div class="menu">
             <img src="images/Dp.png" alt="wisemanmpaji DP">
             <span>WiseManMpaji</span>
             <i class="menu-icon fas fa-bars" onclick="toggleMenu()"></i>
             <ul id="menu-content" class="menu-content">
-                <li><a href="index.html">Home</a></li>
-                <li>Skills</li>
-                <li>Graphics Portfolio</li>
+                <li><a href="index.html" target="_parent">Home</a></li>
+                <li><a href="skills.html" target="_parent">Skills</a></li>
+                <li><a href="skills.html">Graphics Portfolio</a></li>
                 <li>Coding Portfolio</li>
                 <li><a href="https://wa.me/255621500695" target="_blank">Contact</a></li>
             </ul>
-        </div>
-        <div class="backgroundimage">
+          </div>
+          <div class="backgroundimage">
             <img src="images/backweb.png" alt="background photo" style="width: 350px;">
-        </div>
-        <div class="profilecard">
+          </div>
+          <div class="profilecard">
             <div class="profile">
                 <text>Hi there!...<br>I'm glad we have a chance to connect.</text>
                   <div class="typing">
                     <h3><span class="text firsttext">I'm a</span>
-                    <span class="text secondtext">web Designer</span>
+                      <span class="text secondtext">web Designer</span>
+                      <script>
+                        const text = document.querySelector(".secondtext");
+              
+                        const textLoad = () => {
+                          setTimeout(()=>{
+                            text.textContent = "Front-end Developer";
+                          },0);
+                          setTimeout(()=>{
+                            text.textContent = "Web Designer";
+                          }, 4000);
+                          setTimeout(()=>{
+                            text.textContent = "Graphics Designer";
+                          },8000);
+                        }
+              
+                        textLoad();
+                        setInterval(textLoad, 12000);
+                      </script>
+                    </h3>
                   </div>
-                  <script>
-                    const text = document.querySelector(".secondtext");
-          
-                    const textLoad = () => {
-                      setTimeout(()=>{
-                        text.textContent = "Front-end Developer";
-                      },0);
-                      setTimeout(()=>{
-                        text.textContent = "Web Designer";
-                      }, 4000);
-                      setTimeout(()=>{
-                        text.textContent = "Graphics Designer";
-                      },8000);
-                    }
-          
-                    textLoad();
-                    setInterval(textLoad, 12000);
-                  </script>
-                  </h3>
 
                 <a href="https://wisemanmpajiportfolio.netlify.app" target="_blank">
                   <button class="button">
@@ -73,9 +74,16 @@
                 <a href="https://wa.me/255621500695" target="_blank">
                   <button class="button">
                     <i class="fab fa-whatsapp"></i><span>Whatsapp.</span></button>
-                </a>
+                </a> 
+                <div class="social-container">
+                  <ul class="social-icons">
+                      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="#"><i class="fa fa-chat"></i></a></li>
+                  </ul>
+                  </div>
               </div>
             </div>
-          </div>
-  </body>
-</html>
+          </body>
+      </html>

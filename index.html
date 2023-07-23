@@ -15,48 +15,36 @@
       </head>
       <body>
         <div class="container">
-          <div class="menu">
-            <img src="images/Dp.png" alt="wisemanmpaji DP">
-            <span>WiseManMpaji</span>
-            <i class="menu-icon fas fa-bars" onclick="toggleMenu()"></i>
-            <ul id="menu-content" class="menu-content">
-                <li><a href="index.html" target="_parent">Home</a></li>
-                <li><a href="skills.html" target="_parent">Skills</a></li>
-                <li><a href="skills.html">Graphics Portfolio</a></li>
-                <li>Coding Portfolio</li>
-                <li><a href="contact.html" target="_blank">Contact</a></li>
-            </ul>
-          </div>
           <div class="backgroundimage">
             <img src="images/backweb.png" alt="background photo" style="width: 350px;">
           </div>
           <div class="profilecard">
             <div class="profile">
                 <text>Hi there!...<br>I'm glad we have a chance to connect.</text>
-                  <div class="typing">
-                    <h3><span class="text firsttext">I'm a</span>
-                      <span class="text secondtext">web Designer</span>
-                      <script>
-                        const text = document.querySelector(".secondtext");
+                <div class="container">
+                  <span class="text first-text">I'm a</span>
+                  <span class="text sec-text">Graphics designer</span>
+              </div>
+          
+              <script>
+                  const text = document.querySelector(".sec-text");
+          
+                  const textLoad = () => {
+                      setTimeout(() => {
+                          text.textContent = "Graphics designer";
+                      }, 0);
+                      setTimeout(() => {
+                          text.textContent = "Blogger";
+                      }, 4000);
+                      setTimeout(() => {
+                          text.textContent = "YouTuber";
+                      }, 8000); //1s = 1000 milliseconds
+                  }
+          
+                  textLoad();
+                  setInterval(textLoad, 12000);
+              </script>
               
-                        const textLoad = () => {
-                          setTimeout(()=>{
-                            text.textContent = "Front-end Developer";
-                          },0);
-                          setTimeout(()=>{
-                            text.textContent = "Web Designer";
-                          }, 4000);
-                          setTimeout(()=>{
-                            text.textContent = "Graphics Designer";
-                          },8000);
-                        }
-              
-                        textLoad();
-                        setInterval(textLoad, 12000);
-                      </script>
-                    </h3>
-                  </div>
-
                 <a href="https://wisemanmpajiportfolio.netlify.app" target="_blank">
                   <button class="button">
                   <i class="fas fa-briefcase"></i><span>Portfolio.</span></button>

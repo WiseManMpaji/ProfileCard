@@ -363,8 +363,8 @@ text{
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
   content: " ";
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   border-radius: 100%;
   display: block;
   background: linear-gradient(45deg, #00B5F5, #002A8F);

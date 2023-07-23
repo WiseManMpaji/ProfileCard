@@ -371,11 +371,6 @@ text{
   transition: all 265ms ease-out;
 }
 
-#contact {
-  width: 100%;
-  height: 100%;
-}
-
 .section-header {
   text-align: center;
   margin: 0 auto;
@@ -544,6 +539,7 @@ textarea {
 
 hr {
   border-color: rgba(255,255,255,.6);
+  width: 350px;
 }
 
 @media screen and (max-width: 850px) {

@@ -86,7 +86,7 @@ text{
     text-indent: 0;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .fa-briefcase{
@@ -197,7 +197,7 @@ text{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 .text.first-text{

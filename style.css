@@ -68,6 +68,10 @@ a{
     align-items: center;
 }
 
+.button:first-child{
+    margin-top: 10px;
+}
+
 h3{
     color: #5F85DB;
     margin-top: 5px;

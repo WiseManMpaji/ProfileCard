@@ -21,7 +21,7 @@ html, body{
 }
 
 .container{
-    height:100vh;
+    height:1150px;
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -184,7 +184,7 @@ text{
     position: relative;
     color: #4070F4;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 5px;
 }
 
@@ -197,11 +197,18 @@ text{
 .text.first-text{
     margin-left: 21px;
     position: absolute;
+    z-index: 1;
+}
+
+.text .sec-text{
+    margin-left: 50px;
+    position: absolute;
+    left: 0;
+    z-index: 2;
 }
 
 .container .text.first-text{
     color: #FFF;
-    margin-right: 10px;
     padding-left: 10px;
     left: 0;
 }

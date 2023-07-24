@@ -32,7 +32,7 @@ html, body{
 }
 
 .profile{
-    height: 650px;
+    height: 100vh;
     width: 350px;
     background-color: #353941;
     display: flex;
@@ -190,8 +190,8 @@ text{
 
 .typing{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    position: relative;
 }
 
 
@@ -211,6 +211,7 @@ text{
     
     background-color: #353941;
     border-left: 3px solid #4070F4;
+    height: 40px;
     animation: animate 4s steps(12) infinite;
 }
 

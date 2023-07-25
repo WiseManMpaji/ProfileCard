@@ -203,16 +203,14 @@ text{
 }
 
 .text.first-text{
-    margin-left: 21px;
+    margin-left: 20px;
     position: absolute;
-    z-index: 1;
 }
 
 .text .sec-text{
     margin-left: 50px;
     position: absolute;
     left: 0;
-    z-index: 2;
 }
 
 .container .text.first-text{
@@ -256,6 +254,10 @@ text{
 }
 
 @media only screen and (min-width:768px) and (max-width:991px){
+    .text.first-text {
+        left: auto; /* Resetting left property to allow movement on larger screens */
+    }
+    
     .container{
         flex-direction: row;
     }
@@ -268,6 +270,10 @@ text{
 }
 
 @media only screen and (min-width:992px){
+    .text.first-text {
+        left: auto; /* Resetting left property to allow movement on larger screens */
+    }
+    
     .container{
         flex-direction: row;
     }

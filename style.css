@@ -31,8 +31,12 @@ html, body{
     width:100%;
 }
 
+.backgroundimage{
+    top: 20px;
+}
+
 .profile{
-    height: 100vh;
+    height: 100%;
     width: 350px;
     background-color: #353941;
     display: flex;

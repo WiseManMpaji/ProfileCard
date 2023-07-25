@@ -202,19 +202,15 @@ text{
     margin: 20px;
 }
 
-.text.first-text{
-    position: absolute;
-}
-
 .text .sec-text{
     margin-left: 50px;
     position: absolute;
-    left: 0;
 }
 
 .container .text.first-text{
     color: #FFF;
-    padding-left: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
     left: 0;
 }
 
@@ -242,10 +238,6 @@ text{
 }
 
 @media only screen and (max-width:767px){
-    .text.first-text {
-        margin-left: auto;
-    }
-    
     .container{
         margin-top: 400px;
     }
@@ -257,10 +249,6 @@ text{
 }
 
 @media only screen and (min-width:768px) and (max-width:991px){
-    .text.first-text {
-        margin-left: 1035px;
-    }
-    
     .container{
         flex-direction: row;
     }
@@ -273,10 +261,6 @@ text{
 }
 
 @media only screen and (min-width:992px){
-    .text.first-text {
-        margin-left: 1035px;
-    }
-    
     .container{
         flex-direction: row;
     }

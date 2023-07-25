@@ -203,7 +203,6 @@ text{
 }
 
 .text.first-text{
-    margin-left: 20px;
     position: absolute;
 }
 
@@ -243,6 +242,10 @@ text{
 }
 
 @media only screen and (max-width:767px){
+    .text.first-text {
+        margin-left: auto;
+    }
+    
     .container{
         margin-top: 400px;
     }
@@ -255,7 +258,7 @@ text{
 
 @media only screen and (min-width:768px) and (max-width:991px){
     .text.first-text {
-        left: auto; /* Resetting left property to allow movement on larger screens */
+        margin-left: 1035px;
     }
     
     .container{
@@ -271,7 +274,7 @@ text{
 
 @media only screen and (min-width:992px){
     .text.first-text {
-        left: auto; /* Resetting left property to allow movement on larger screens */
+        margin-left: 1035px;
     }
     
     .container{

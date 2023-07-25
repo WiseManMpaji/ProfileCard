@@ -1,86 +1,95 @@
-  <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WiseManMpaji Profile</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-        <meta name="description" content="This website made by mpaji elia for showcasing his profile"/>
-        <meta name="keywords" content="wiseman,wise,wiseman_mpaji,wisemanmpajirealtopg,©WiseManMpaji,mpaji,mpaji elia lulandala"/>
-        <script src="script.js"></script>
-      </head>
-      <body>
-        <div class="container">
-          <div class="backgroundimage">
-            <img src="images/backweb.png" alt="background photo" style="width: 350px;">
-          </div>
-          <div class="profilecard">
-            <div class="profile">
-                <text><br>Hi there!...<br>I'm glad we have a chance to connect.</text>
-                <div class="typing">
-                  <span class="text first-text">I'm a</span>
-                  <span class="text sec-text">Graphics designer</span>
-              </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WiseManMpaji Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+  <meta name="description" content="This website made by mpaji elia for showcasing his profile"/>
+  <meta name="keywords" content="wiseman,wise,wiseman_mpaji,wisemanmpajirealtopg,©WiseManMpaji,mpaji,mpaji elia lulandala"/>
+</head>
+<body>
+  <div class="container">
+    <div class="backgroundimage">
+      <img src="images/backweb.png" alt="background photo" style="width: 350px;">
+    </div>
+    <div class="profilecard">
+      <div class="profile">
+        <text><br>Hi there!...<br>I'm glad we have a chance to connect.</text>
+        <div class="typing">
+          <span class="text first-text">I'm a</span>
+          <span class="text sec-text">Graphics Designer</span>
+        </div>
+
+        <script>
+          const text = document.querySelector(".sec-text");
           
-              <script>
-                  const text = document.querySelector(".sec-text");
+          const textLoad = () => {
+            setTimeout(() => {
+              text.textContent = "Graphics Designer";
+            }, 0);
+            setTimeout(() => {
+              text.textContent = "Front-end Developer";
+            }, 4000);
+            setTimeout(() => {
+              text.textContent = "Websites Designer";
+            }, 8000); //1s = 1000 milliseconds
+          }
           
-                  const textLoad = () => {
-                      setTimeout(() => {
-                          text.textContent = "Graphics Designer";
-                      }, 0);
-                      setTimeout(() => {
-                          text.textContent = "Front-end Developer";
-                      }, 4000);
-                      setTimeout(() => {
-                          text.textContent = "Websites Designer";
-                      }, 8000); //1s = 1000 milliseconds
-                  }
-          
-                  textLoad();
-                  setInterval(textLoad, 12000);
-              </script>
+          textLoad();
+          setInterval(textLoad, 12000);
+        </script>
               
-                <a href="https://wisemanmpajiportfolio.netlify.app" target="_blank">
-                  <button class="button">
-                  <i class="fas fa-briefcase"></i><span>Portfolio.</span></button>
-                </a>
-                <a href="tel:0621500695" target="_blank">
-                  <button class="button"><i class="fas fa-phone"></i><span>Call.</span></button>
-                </a>
-                <a href="https://mailto:wisemanmpaji@gmail.com" target="_blank">
-                  <button class="button"><i class="fas fa-envelope"></i><span>E-Mail.</span></button>
-                </a>
-                <a href="https://twitter.com/WiseManMpaji?t=I56Z6DWg70YKNxo0_FfbHw&s=09" target="_blank">
-                  <button class="button"><i class="fab fa-twitter"></i><span>Twitter.</span></button>
-                </a>
-                <a href="https://wa.me/255621500695" target="_blank">
-                  <button class="button">
-                    <i class="fab fa-whatsapp"></i><span>Whatsapp.</span></button>
-                </a> 
-                <div class="social-container">
-                  <ul class="social-icons">
-                      <li><a href="https://www.instagram.com/wisemanmpaji/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                      <li><a href="https://www.facebook.com/wiseman.mpaji" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                      <li><a href="https://www.linkedin.com/in/wiseman-mpaji-655b49195" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                      <li><a href="#" id="message-icon" target="_blank"><i class="fas fa-comment"></i></a>
-                      <script>
-                        const messageIcon = document.getElementById('message-icon');
-                        messageIcon.addEventListener('click', function() {
-                          const phoneNumber = '0621500695';
-                          const message = 'Hey! Wiseman';
-                          const url = `sms:${phoneNumber}&body=${encodeURIComponent(message)}`;
-                          window.open(url);
-                        });
-                      </script>
-                      </li>
-                  </ul>
-                  </div>
-              </div>
-            </div>
-          </body>
-      </html>
+        <a href="https://wisemanmpajiportfolio.netlify.app" target="_blank">
+          <button class="button">
+            <i class="fas fa-briefcase"></i><span>Portfolio.</span>
+          </button>
+        </a>
+        <a href="tel:0621500695" target="_blank">
+          <button class="button">
+            <i class="fas fa-phone"></i><span>Call.</span>
+          </button>
+        </a>
+        <a href="mailto:wisemanmpaji@gmail.com" target="_blank">
+          <button class="button">
+            <i class="fas fa-envelope"></i><span>E-Mail.</span>
+          </button>
+        </a>
+        <a href="https://twitter.com/WiseManMpaji?t=I56Z6DWg70YKNxo0_FfbHw&s=09" target="_blank">
+          <button class="button">
+            <i class="fab fa-twitter"></i><span>Twitter.</span>
+          </button>
+        </a>
+        <a href="https://wa.me/255621500695" target="_blank">
+          <button class="button">
+            <i class="fab fa-whatsapp"></i><span>Whatsapp.</span>
+          </button>
+        </a> 
+        <div class="social-container">
+          <ul class="social-icons">
+            <li><a href="https://www.instagram.com/wisemanmpaji/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/wiseman.mpaji" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/wiseman-mpaji-655b49195" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li>
+              <a href="#" id="message-icon">
+                <i class="fas fa-comment"></i>
+              </a>
+              <script>
+                const messageIcon = document.getElementById('message-icon');
+                messageIcon.addEventListener('click', function() {
+                  const phoneNumber = '0621500695';
+                  const message = 'Hey! Wiseman';
+                  const url = `sms:${phoneNumber}&body=${encodeURIComponent(message)}`;
+                  window.open(url);
+                });
+              </script>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

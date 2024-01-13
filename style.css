@@ -27,8 +27,9 @@ header {
   object-fit: cover;
 }
 
-name {
+.name {
   margin-bottom: 20px;
+  font-size: large;
 }
 
 h3 {
@@ -38,24 +39,32 @@ h3 {
 span {
   display: block;
   font-size: 16px;
+  font-size: medium;
+  color: #FF8C32;
 }
 
 .portfolio {
-  background-color: #DDDDDD;
+  background-color: #FF8C32;
   padding: 10px;
   border-radius: 5px;
+  margin-top: 20px;
+  font-size: medium;
   margin-bottom: 20px;
+  color: #06113C;
 }
 
 .icons a {
-  color: #fff;
+  color: #EEEEEE;
   text-decoration: none;
-  margin: 10px 0;
-}
+  font-size: 30px;
+  margin: 10px 3px;
+  }
 
 .contact-footer {
   display: block;
-  color: #fff;
+  color: #FF8C32;
   text-decoration: none;
   margin: 10px 0;
+  font-size: medium;
+  margin-top: 20px;
 }

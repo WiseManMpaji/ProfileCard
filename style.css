@@ -35,13 +35,14 @@ header {
 }
 
 h3 {
+  font-size: 30px;
   margin: 0;
 }
 
 span {
   display: block;
   font-size: 16px;
-  font-size: medium;
+  font-size: 25;
   color: #FF8C32;
 }
 
@@ -50,7 +51,7 @@ span {
   padding: 10px;
   border-radius: 5px;
   margin-top: 20px;
-  font-size: medium;
+  font-size: 25px;
   margin-bottom: 20px;
   color: #06113C;
 }
@@ -66,6 +67,6 @@ span {
   display: block;
   color: #FF8C32;
   text-decoration: none;
-  font-size: medium;
+  font-size: 20px;
   margin-top: 20px;
 }

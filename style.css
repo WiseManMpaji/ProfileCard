@@ -3,6 +3,7 @@ body {
   color: #EEEEEE;
   text-align: center;
   margin: 0;
+  height: 50%;
   font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;

@@ -19,7 +19,7 @@ header {
 .dp {
   border-radius: 50%;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 2px solid #FF8C32;
 }
 
@@ -34,11 +34,11 @@ header {
 }
 
 .name {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   }
 
 h3 {
-  font-size: 40px;
+  font-size: 30px;
   margin: 0;
 }
 
@@ -52,8 +52,8 @@ span {
   padding: 10px;
   border-radius: 5px;
   margin-top: 20px;
-  font-size: 25px;
-  margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
   color: #06113C;
   white-space: nowrap;
   border: 1px solid #EEEEEE;
@@ -62,7 +62,7 @@ span {
 
 .highlight{
 color: #EEEEEE;
-font-size: 25px;
+font-size: 20px;
 }
 
 
@@ -78,14 +78,14 @@ font-size: 25px;
 }
 
 .contact{
-margin-top: 5px;
+margin-top: 10px;
 }
 
 .contact-footer {
   display: block;
   color: #FF8C32;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   margin-top: 1px;
 }
 

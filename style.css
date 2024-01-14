@@ -20,7 +20,11 @@ header {
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 20px;
-  border: 1px solid #FF8C32;
+  border: 2px solid #FF8C32;
+}
+
+.dp:hover{
+  border: 1px solid #EEEEEE;
 }
 
 .dp img {
@@ -31,17 +35,15 @@ header {
 
 .name {
   margin-bottom: 20px;
-  font-size: large;
-}
+  }
 
 h3 {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
 }
 
 span {
-  display: block;
-  font-size: 16px;
+  font-size: 20px;
   color: #FF8C32;
 }
 
@@ -53,21 +55,45 @@ span {
   font-size: 25px;
   margin-bottom: 20px;
   color: #06113C;
+  white-space: nowrap;
+  border: 1px solid #EEEEEE;
+}
+
+.portfolio:hover {
+  background-color: #EEEEEE;
+  color: #06113C;
+  border: 1px solid #FF8C32;
+  .highlight{
+    color: #FF8C32;
+  }
+}
+
+.highlight{
+color: #EEEEEE;
+font-size: 25px;
 }
 
 .icons a {
   color: #EEEEEE;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 45px;
   margin: 10px 3px;
+}
+
+.icons a :hover{
+  color: #FF8C32;
 }
 
 .contact-footer {
   display: block;
   color: #FF8C32;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 20px;
+}
+
+.contact-footer:hover{
+  color: #EEEEEE;
 }
 
 /* Responsive Styles */

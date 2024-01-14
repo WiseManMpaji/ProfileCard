@@ -77,12 +77,16 @@ font-size: 25px;
   color: #FF8C32;
 }
 
+.contact{
+margin-top: 5px;
+}
+
 .contact-footer {
   display: block;
   color: #FF8C32;
   text-decoration: none;
   font-size: 15px;
-  margin-top: 20px;
+  margin-top: 1px;
 }
 
 .contact-footer:hover{

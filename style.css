@@ -151,7 +151,7 @@ body {
 }
 #container .left-section .profile-detail .profile-summary {
   color: var(--text-secondary);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 #container .left-section .profile-detail .profile-cv {
   display: block;

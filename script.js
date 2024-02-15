@@ -1,4 +1,4 @@
-let enableNight = () => {
+           let enableNight = () => {
     var body = document.getElementById("body");
   
     if (body.classList.contains('theme--light')){
